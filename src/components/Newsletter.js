@@ -31,7 +31,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
           width: "100%",
           height: "auto", // Set height to auto for responsive scaling
           marginLeft: "1rem",
-          backgroundColor: "black",
+          backgroundColor: "#141313",
         }}
         className="newsletter-image" // Add a class for styling in CSS
       />
