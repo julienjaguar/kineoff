@@ -95,7 +95,7 @@ export const Skills = () => {
               >
                 {fishFriends.map((fishFriend, index) => (
                   <div key={index} className="item">
-                    <img                       style={{ width: "5rem", height: "5rem" }}
+                    <img                       style={{ width: "10rem", height: "10rem" }}
 
                       src={fishFriend.img}
                       alt={`${fishFriend.name} Controller`}
