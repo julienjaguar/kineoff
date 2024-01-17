@@ -99,7 +99,7 @@ export const Skills = () => {
                       src={fishFriend.img}
                       alt={`${fishFriend.name} Controller`}
                     />
-                    <h5 style={{ marginTop: "5rem" }}>{fishFriend.name}</h5>
+                    <h5 >{fishFriend.name}</h5>
                   </div>
                 ))}
               </Carousel>
