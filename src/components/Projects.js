@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Modal, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import fishImage from "../assets/img/1.png";
+import fishImage2 from "../assets/img/logo.png";
+import fishImage3 from "../assets/img/10.png";
 import fishImage4 from "../assets/img/4.png";
-import fishImage5 from "../assets/img/logo.png";
+import fishImage5 from "../assets/img/5.png";
 import fishImage6 from "../assets/img/6.png";
-import fishImage8 from "../assets/img/10.png";
-import fishImage9 from "../assets/img/11.png";
-
 import "animate.css";
 import "./Projects.css";
 
@@ -16,47 +16,41 @@ export const Projects = () => {
   const fishFriends = [
     {
       name: "KINE",
-      role: "Curious Swimmer",
-      imgUrl: fishImage5,
-      description:
-        "Kine has a curious nature, always seeking new wonders in the sea alongside Kine.",
+      role: "CEO of KINE ",
+      img: fishImage,
+      description: "CEO of KINE",
     },
     {
-      name: "BUBBLES",
-      role: "Cheerful Explorer",
-      imgUrl: fishImage4,
-      description:
-        "Bubbles loves exploring with Kine, bringing joy and laughter to the underwater journey.",
+      name: "Sbob",
+      role: "UI/UX DESIGNER",
+      img: fishImage2,
+      description: "UI/UX DESIGNER",
     },
     {
-      name: "ASTRO",
-      role: "Curious Swimmer",
-      imgUrl: fishImage5,
-      description:
-        "Astro has a curious nature, always seeking new wonders in the sea alongside Kine.",
-    },
-
-    {
-      name: "SBOB",
-      role: "Loyal Mate",
-      imgUrl: fishImage6,
-      description:
-        "Sbob is a loyal mate of Kine, supporting him and Kirby in their moon-bound adventure.",
+      name: "Hal",
+      role: "SOLIDITY/PYTHON DEVELOPER",
+      img: fishImage3,
+      description: "SOLIDITY/PYTHON DEVELOPER",
     },
     {
-      name: "CORAL",
-      role: "Artistic Dreamer",
-      imgUrl: fishImage8,
-      description:
-        "Coral is an artistic dreamer, creating beauty beneath the waves and finding inspiration in the endless wonders of the sea.",
+      name: "Finn",
+      role: "MARKETING MANAGER",
+      img: fishImage4,
+      description: "MARKETING MANAGER",
     },
     {
-      name: "FINN",
-      role: "Adventurous Voyager",
-      imgUrl: fishImage9,
-      description:
-        "Finn is an adventurous voyager, exploring uncharted territories with Kine's crew, seeking the thrill of the unknown in their eternal journey.",
+      name: "Bubbles",
+      role: "COMMUNITY MANAGER",
+      img: fishImage5,
+      description: "COMMUNITY MANAGER",
     },
+    {
+      name: "Splash",
+      role: "MARKETING ADVISOR ",
+      img: fishImage6,
+      description: "MARKETING ADVISOR",
+    },
+    // Add more fishFriends as needed
   ];
 
   const handleFishClick = (fish) => {
@@ -78,7 +72,8 @@ export const Projects = () => {
               onClick={() => handleFishClick(fish)}
             >
               <div className="fish-image-container">
-                <img src={fish.imgUrl} alt={fish.name} className="fish-image" />
+                {/* Fix: Change fish.imgUrl to fish.img */}
+                <img src={fish.img} alt={fish.name} className="fish-image" />
               </div>
               <div className="fish-info">
                 <h3>{fish.name}</h3>

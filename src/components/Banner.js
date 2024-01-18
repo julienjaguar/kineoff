@@ -13,7 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const [showModal, setShowModal] = useState(false);
 
-  const toRotate = ["SWIMMING TO THE MOON", "EXPLORE THE OCEANIC ADVENTURE"];
+  const toRotate = ["KINE IS HERE TO HELP KIRBY MAKE X GREAT AGAIN!"];
   const period = 2000;
 
   useEffect(() => {
@@ -73,9 +73,9 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to KINE AREA</span>
+                  <span className="tagline">SWIMMING TO THE MOON</span>
                   <h1>
-                    {`Swim with KINE `}
+                    {` `}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -84,8 +84,12 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <button onClick={handleShowModal}>
-                    Dive & Explore <ArrowRightCircle size={25} />
+                  <button
+                    onClick={() =>
+                      (window.location.href = "https://x.com/kine_cto")
+                    }
+                  >
+                    Follow us on X <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}

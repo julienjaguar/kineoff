@@ -25,7 +25,7 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div style={{ marginTop: "4rem" }} className="social-icon">
               <a
-                href="https://www.twitter.com"
+                href="https://twitter.com/kine_cto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -33,7 +33,7 @@ export const Footer = () => {
               </a>
               <a
                 style={{ marginLeft: "1rem" }}
-                href="https://www.telegram.com"
+                href="https://t.me/kinecto"
                 target="_blank"
                 rel="noopener noreferrer"
               >

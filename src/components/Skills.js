@@ -31,46 +31,40 @@ export const Skills = () => {
 
   const fishFriends = [
     {
-      name: "Kirby",
-      role: "Star of the Sea",
+      name: "Galaxy",
+      role: "CEO of KINE ",
       img: fishImage,
-      description:
-        "Kirby is a shining star in the vast sea, ready for a new adventure.",
-    },
-    {
-      name: "Kine",
-      role: "Best Fish Friend",
-      img: fishImage2,
-      description:
-        "Meet Kine, Kirby's best fish friend. He is here to help Kirby send to the moon.",
-    },
-    {
-      name: "Finn",
-      role: "Adventure Companion",
-      img: fishImage3,
-      description:
-        "Finn is a loyal companion of Kine, always swimming by his side.",
-    },
-    {
-      name: "Bubbles",
-      role: "Cheerful Explorer",
-      img: fishImage4,
-      description:
-        "Bubbles loves exploring with Kine, bringing joy and laughter to the underwater journey.",
-    },
-    {
-      name: "Splash",
-      role: "Curious Swimmer",
-      img: fishImage5,
-      description:
-        "Splash has a curious nature, always seeking new wonders in the sea alongside Kine.",
+      description: "CEO of KINE",
     },
     {
       name: "Sbob",
-      role: "Loyal Mate",
+      role: "UI/UX DESIGNER",
+      img: fishImage2,
+      description: "UI/UX DESIGNER",
+    },
+    {
+      name: "Hal",
+      role: "SOLIDITY/PYTHON DEVELOPER",
+      img: fishImage3,
+      description: "SOLIDITY/PYTHON DEVELOPER",
+    },
+    {
+      name: "Finn",
+      role: "MARKETING MANAGER",
+      img: fishImage4,
+      description: "MARKETING MANAGER",
+    },
+    {
+      name: "Bubbles",
+      role: "COMMUNITY MANAGER",
+      img: fishImage5,
+      description: "COMMUNITY MANAGER",
+    },
+    {
+      name: "Splash",
+      role: "MARKETING ADVISOR ",
       img: fishImage6,
-      description:
-        "Gill is a loyal mate of Kine, supporting him and Kirby in their moon-bound adventure.",
+      description: "MARKETING ADVISOR",
     },
     // Add more fishFriends as needed
   ];
@@ -81,11 +75,11 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2 style={{ fontSize: "2rem" }}>Underwater Wonders</h2>
+              <h2 style={{ fontSize: "2rem" }}>KINE CTO TEAM</h2>
               <p>
-                Dive into the world of underwater controllers, resistant to the
-                depths and delivered swiftly within 36 hours (except on business
-                days).
+                We are degens and $KIRBY whales committed to fucking send both
+                $KINE and $KIRBY to the moon! We are now KINE X CTO, ready to
+                help our CEO Kirby to send and reach the moon all together!
               </p>
               <Carousel
                 style={{ backgroundColor: "black" }}
@@ -95,12 +89,12 @@ export const Skills = () => {
               >
                 {fishFriends.map((fishFriend, index) => (
                   <div key={index} className="item">
-                    <img                       style={{ width: "10rem", height: "10rem" }}
-
+                    <img
+                      style={{ width: "5rem", height: "5rem" }}
                       src={fishFriend.img}
                       alt={`${fishFriend.name} Controller`}
                     />
-                    <h5 >{fishFriend.name}</h5>
+                    <h5 style={{ marginTop: "5rem" }}>{fishFriend.name}</h5>
                   </div>
                 ))}
               </Carousel>

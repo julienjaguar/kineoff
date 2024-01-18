@@ -39,7 +39,7 @@ export const NavBar = () => {
             <Nav className="ml-auto">
               <Nav.Item>
                 <Nav.Link
-                  href="https://www.twitter.com"
+                  href="https://twitter.com/kine_cto"
                   className="navbar-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export const NavBar = () => {
 
               <Nav.Item>
                 <Nav.Link
-                  href="https://www.telegram.com"
+                  href="https://t.me/kinecto"
                   className="navbar-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ export const NavBar = () => {
 
               <Nav.Item>
                 <Nav.Link
-                  href="https://www.chart.com"
+                  href="https://www.dextools.io/app/en/pairs"
                   className="navbar-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export const NavBar = () => {
 
               <Nav.Item>
                 <Nav.Link
-                  href="https://www.buy.com"
+                  href="https://www.dextools.io/app/en/pairs"
                   className="navbar-link"
                   target="_blank"
                   rel="noopener noreferrer"
