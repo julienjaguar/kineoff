@@ -65,23 +65,7 @@ export const Skills = () => {
                 much noise barking everywhere to get Snoop to interact with him
                 on X, one snoop tweet and we all make it!!
               </p>
-              <Carousel
-                style={{ backgroundColor: "black" }}
-                responsive={responsive}
-                infinite={true}
-                className="owl-carousel owl-theme skill-slider"
-              >
-                {fishFriends.map((fishFriend, index) => (
-                  <div key={index} className="item">
-                    <img
-                      style={{ width: "5rem", height: "5rem" }}
-                      src={fishFriend.img}
-                      alt={`${fishFriend.name} Controller`}
-                    />
-                    <h5 style={{ marginTop: "5rem" }}>{fishFriend.name}</h5>
-                  </div>
-                ))}
-              </Carousel>
+              
             </div>
           </div>
         </div>
