@@ -8,6 +8,7 @@ import fishImage3 from "../assets/img/10.png";
 import fishImage4 from "../assets/img/4.png";
 import fishImage5 from "../assets/img/5.png";
 import fishImage6 from "../assets/img/6.png";
+import mamak from "../assets/img/mamak.png";
 
 export const Skills = () => {
   const responsive = {
@@ -66,6 +67,9 @@ export const Skills = () => {
                 on X, one snoop tweet and we all make it!!
               </p>
               
+              <div style={{ marginTop: "4rem", width: "80%", textAlign: "center" }}>
+        <img style={{ textAlign: "center" }} src={mamak} alt="" />
+      </div>
             </div>
           </div>
         </div>
