@@ -32,39 +32,21 @@ export const Skills = () => {
   const fishFriends = [
     {
       name: "Galaxy",
-      role: "CEO of KINE ",
+      role: "CEO of FRANK ",
       img: fishImage,
-      description: "CEO of KINE",
+      description: "CEO of FRANK",
     },
     {
-      name: "Sbob",
+      name: "JIMMY",
       role: "UI/UX DESIGNER",
       img: fishImage2,
       description: "UI/UX DESIGNER",
     },
     {
-      name: "Hal",
+      name: "MIKE",
       role: "SOLIDITY/PYTHON DEVELOPER",
       img: fishImage3,
       description: "SOLIDITY/PYTHON DEVELOPER",
-    },
-    {
-      name: "Finn",
-      role: "MARKETING MANAGER",
-      img: fishImage4,
-      description: "MARKETING MANAGER",
-    },
-    {
-      name: "Bubbles",
-      role: "COMMUNITY MANAGER",
-      img: fishImage5,
-      description: "COMMUNITY MANAGER",
-    },
-    {
-      name: "Splash",
-      role: "MARKETING ADVISOR ",
-      img: fishImage6,
-      description: "MARKETING ADVISOR",
     },
     // Add more fishFriends as needed
   ];
@@ -75,11 +57,13 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2 style={{ fontSize: "2rem" }}>KINE CTO TEAM</h2>
+              <h2 style={{ fontSize: "2rem" }}>FRANK CTO TEAM</h2>
               <p>
-                We are degens and $KIRBY whales committed to fucking send both
-                $KINE and $KIRBY to the moon! We are now KINE X CTO, ready to
-                help our CEO Kirby to send and reach the moon all together!
+                Snoop Dogg has been a good supporter of the crypto space during
+                the last bullrun, what's better to grab his attention than a
+                token in honor of his lovely dog! $FRANK is about to make so
+                much noise barking everywhere to get Snoop to interact with him
+                on X, one snoop tweet and we all make it!!
               </p>
               <Carousel
                 style={{ backgroundColor: "black" }}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logoo.png";
 import { BrowserRouter as Router } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons";

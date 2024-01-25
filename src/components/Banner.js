@@ -13,7 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const [showModal, setShowModal] = useState(false);
 
-  const toRotate = ["KINE IS HERE TO HELP KIRBY MAKE X GREAT AGAIN!"];
+  const toRotate = ["$FRANK MISSING? WE FOUND HIM HERE ON SOLANA CHAIN!!"];
   const period = 2000;
 
   useEffect(() => {
@@ -73,7 +73,9 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">SWIMMING TO THE MOON</span>
+                  <span className="tagline">
+                    Time to return $FRANK to daddy Snoop !
+                  </span>
                   <h1>
                     {` `}
                     <span

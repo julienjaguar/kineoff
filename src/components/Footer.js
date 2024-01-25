@@ -7,7 +7,7 @@ import {
   faChartBar,
   faShoppingCart,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logoo.png";
 
 export const Footer = () => {
   return (

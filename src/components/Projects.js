@@ -15,37 +15,37 @@ export const Projects = () => {
 
   const fishFriends = [
     {
-      name: "KINE",
-      role: "CEO of KINE ",
+      name: "FRANK",
+      role: "CEO of FRANK ",
       img: fishImage,
-      description: "CEO of KINE",
+      description: "CEO of FRANK",
     },
     {
-      name: "Sbob",
+      name: "BILLY",
       role: "UI/UX DESIGNER",
       img: fishImage2,
       description: "UI/UX DESIGNER",
     },
     {
-      name: "Hal",
+      name: "MIKE",
       role: "SOLIDITY/PYTHON DEVELOPER",
       img: fishImage3,
       description: "SOLIDITY/PYTHON DEVELOPER",
     },
     {
-      name: "Finn",
+      name: "JIMMY",
       role: "MARKETING MANAGER",
       img: fishImage4,
       description: "MARKETING MANAGER",
     },
     {
-      name: "Bubbles",
+      name: "JOHN",
       role: "COMMUNITY MANAGER",
       img: fishImage5,
       description: "COMMUNITY MANAGER",
     },
     {
-      name: "Splash",
+      name: "JOY",
       role: "MARKETING ADVISOR ",
       img: fishImage6,
       description: "MARKETING ADVISOR",
