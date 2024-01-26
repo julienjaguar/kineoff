@@ -25,67 +25,66 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  return (
-    <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
-          <Navbar.Brand href="/">
-            <img style={{ width: "6rem" }} src={logo} alt="Logo" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
-          </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Item>
-                <Nav.Link
-                  href="https://twitter.com/kine_cto"
-                  className="navbar-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  TWITTER
-                  {/* <FontAwesomeIcon className="ok" icon={faTwitter} /> */}
-                </Nav.Link>
-              </Nav.Item>
+return (
+  <Router>
+    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Container>
+        <Navbar.Brand href="/">
+          <img style={{ width: "6rem" }} src={logo} alt="Logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <span className="navbar-toggler-icon"></span>
+        </Navbar.Toggle>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Item>
+              <Nav.Link
+                href="https://x.com/frankonsol"
+                className="navbar-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TWITTER
+              </Nav.Link>
+            </Nav.Item>
 
-              <Nav.Item>
-                <Nav.Link
-                  href="https://t.me/kinecto"
-                  className="navbar-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  TELEGRAM
-                  {/* <FontAwesomeIcon className="ok" icon={faTelegram} /> */}
-                </Nav.Link>
-              </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                href="https://t.me/franksnoopdoggydogg"
+                className="navbar-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TELEGRAM
+              </Nav.Link>
+            </Nav.Item>
 
-              <Nav.Item>
-                <Nav.Link
-                  href="https://www.dextools.io/app/en/pairs"
-                  className="navbar-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  CHART
-                </Nav.Link>
-              </Nav.Item>
+            <Nav.Item disabled>
+              <Nav.Link
+                href="https://www.dextools.io/app/en/pairs"
+                className="navbar-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CHART
+              </Nav.Link>
+            </Nav.Item>
 
-              <Nav.Item>
-                <Nav.Link
-                  href="https://www.dextools.io/app/en/pairs"
-                  className="navbar-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  BUY
-                </Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </Router>
-  );
-};
+            <Nav.Item disabled>
+              <Nav.Link
+                href="https://www.dextools.io/app/en/pairs"
+                className="navbar-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                BUY
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  </Router>
+);
+
+
