@@ -58,7 +58,9 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2 style={{ fontSize: "2rem" }}>FRANK CTO TEAM</h2>
+              <h2 style={{ fontSize: "2rem" }}>
+                Snoop Doggy Dogg
+                </h2>
               <p>
                 Snoop Dogg has been a good supporter of the crypto space during
                 the last bullrun, what's better to grab his attention than a
