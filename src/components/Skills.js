@@ -69,12 +69,12 @@ export const Skills = () => {
                 on X, one snoop tweet and we all make it!!
               </p>
               
-              <div style={{ marginTop: "4rem", width: "80%", textAlign: "center" }}>
-                <h6>
+              <div style={{ marginTop: "4rem", width: "100%", textAlign: "center" }}>
+                
+        <img style={{ textAlign: "center", boxShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }} src={mamak} alt="" />
+<h6>
                   Snoop got $FRANK returned to him, all good we can celebrate 🎉
                   </h6>
-        <img style={{ textAlign: "center", boxShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }} src={mamak} alt="" />
-
       </div>
             </div>
           </div>
