@@ -36,7 +36,7 @@ return (
       className="newsletter-image" // Add a class for styling in CSS
     />
 
-    <div style={{ display: "flex", justifyContent: "center", marginTop: "1rem" }}>
+    <div style={{ display: "flex", justifyContent: "center", marginTop: "1rem", marginBottom:"2rem"}}>
       <a href="https://t.me/bonkbot_bot?start=ref_rf2ot" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
         🐶 BonkBot
       </a>
