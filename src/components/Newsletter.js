@@ -22,19 +22,33 @@ export const Newsletter = ({ status, message, onValidated }) => {
     setEmail("");
   };
 
-  return (
-    <div className="">
-      <img
-        src={contactImg}
-        alt="Tax Image"
-        style={{
-          width: "100%",
-          height: "auto", // Set height to auto for responsive scaling
-          marginLeft: "1rem",
-          backgroundColor: "#141313",
-        }}
-        className="newsletter-image" // Add a class for styling in CSS
-      />
+return (
+  <div className="">
+    <img
+      src={contactImg}
+      alt="Tax Image"
+      style={{
+        width: "100%",
+        height: "auto", // Set height to auto for responsive scaling
+        marginLeft: "1rem",
+        backgroundColor: "#141313",
+        marginTop: "3rem", // Margin top of 3rem
+      }}
+      className="newsletter-image" // Add a class for styling in CSS
+    />
+
+    <div style={{ display: "flex", alignItems: "center", marginTop: "1rem" }}>
+      <a href="https://www.google.com">
+        🐶
+      </a>
+      <a href="https://www.google.com" style={{ margin: "0 1rem" }}>
+        🔵
+      </a>
+      <a href="https://www.google.com">
+        🦄
+      </a>
     </div>
-  );
+  </div>
+);
+
 };
