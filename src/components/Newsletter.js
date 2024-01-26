@@ -38,17 +38,18 @@ return (
     />
 
     <div style={{ display: "flex", alignItems: "center", marginTop: "1rem" }}>
-      <a href="https://www.google.com">
-        🐶
+      <a href="https://t.me/bonkbot_bot?start=ref_rf2ot" target="_blank" rel="noopener noreferrer">
+        🐶 BonkBot
       </a>
-      <a href="https://www.google.com" style={{ margin: "0 1rem" }}>
-        🔵
+      <a href="https://t.me/SolanaTradingBot?start=aN4Dgdagf" style={{ margin: "0 1rem" }} target="_blank" rel="noopener noreferrer">
+        🟣 SolTdBot
       </a>
-      <a href="https://www.google.com">
-        🦄
+      <a href="https://t.me/solana_unibot?start=r-frankdoggydogg" target="_blank" rel="noopener noreferrer">
+        🦄 UniBot
       </a>
     </div>
   </div>
 );
+
 
 };
