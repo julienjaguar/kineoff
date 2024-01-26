@@ -88,7 +88,8 @@ export const Banner = () => {
                   </h1>
                   <button
                     onClick={() =>
-                      (window.location.href = "https://x.com/kine_cto")
+                      (window.location.href = "https://x.com/frankonsol");
+
                     }
                   >
                     Follow us on X <ArrowRightCircle size={25} />
