@@ -72,7 +72,7 @@ export const Skills = () => {
               <div style={{ marginTop: "4rem", width: "100%", textAlign: "center" }}>
                 
         <img style={{ textAlign: "center", boxShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }} src={mamak} alt="" />
-<h6>
+<h6 style={{marginTop : "2rem"}}>
                   Snoop got $FRANK returned to him, all good we can celebrate 🎉
                   </h6>
       </div>
