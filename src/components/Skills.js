@@ -70,6 +70,9 @@ export const Skills = () => {
               </p>
               
               <div style={{ marginTop: "4rem", width: "80%", textAlign: "center" }}>
+                <h6>
+                  Snoop got $FRANK returned to him, all good we can celebrate 🎉
+                  </h6>
         <img style={{ textAlign: "center" }} src={mamak} alt="" />
       </div>
             </div>
