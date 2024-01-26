@@ -86,14 +86,14 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <button
-                    onClick={() =>
-                      (window.location.href = "https://x.com/frankonsol");
+           <button
+  onClick={() =>
+    (window.location.href = "https://x.com/frankonsol")
+  }
+>
+  Follow us on X <ArrowRightCircle size={25} />
+</button>
 
-                    }
-                  >
-                    Follow us on X <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>
