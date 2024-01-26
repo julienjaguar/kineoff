@@ -13,7 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const [showModal, setShowModal] = useState(false);
 
-  const toRotate = ["$FRANK MISSING? WE FOUND HIM HERE ON SOLANA CHAIN!!"];
+  const toRotate = ["WE FOUND $FRANK ON SOLANA CHAIN!!"];
   const period = 2000;
 
   useEffect(() => {
