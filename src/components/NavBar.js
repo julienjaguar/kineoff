@@ -60,25 +60,23 @@ return (
             </Nav.Item>
 
             <Nav.Item disabled>
-              <Nav.Link
-                href="https://www.dextools.io/app/en/pairs"
-                className="navbar-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CHART
-              </Nav.Link>
+               <Nav.Link
+              href="https://www.dextools.io/app/en/pairs"
+              className="navbar-link"
+              style={{ pointerEvents: "none", color: "inherit", textDecoration: "none" }}
+            >
+              CHART
+            </Nav.Link>
             </Nav.Item>
 
             <Nav.Item disabled>
-              <Nav.Link
-                href="https://www.dextools.io/app/en/pairs"
-                className="navbar-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                BUY
-              </Nav.Link>
+             <Nav.Link
+              href="https://www.dextools.io/app/en/pairs"
+              className="navbar-link"
+              style={{ pointerEvents: "none", color: "inherit", textDecoration: "none" }}
+            >
+              BUY
+            </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
