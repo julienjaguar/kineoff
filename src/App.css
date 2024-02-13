@@ -647,8 +647,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
-.bg {
-  background-image: url("./assets/img/banner-bg.png");
-  background-size: cover; /* Pour que l'image couvre tout le conteneur */
-  background-repeat: no-repeat; /* Pour que l'image ne se répète pas */
-}
+
