@@ -1,0 +1,57 @@
+.fish-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fish-container:hover {
+  transform: scale(1.05);
+}
+
+.fish-image-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.fish-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.fish-info {
+  text-align: center;
+}
+
+/* Default styles for small screens */
+.newsletter-image {
+  height: 100%;
+}
+
+/* Styles for screens larger than 768 pixels (adjust the breakpoint as needed) */
+@media (min-width: 768px) {
+  .newsletter-image {
+    height: 60%;
+  }
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  background-color: #aad6fc;
+}
+
+.modal-footer {
+  background-color: #aad6fc;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #000000;
+  border-color: #6c757d;
+}
