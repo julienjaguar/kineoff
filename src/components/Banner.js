@@ -13,7 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const [showModal, setShowModal] = useState(false);
 
-  const toRotate = ["WE FOUND $FRANK ON SOLANA CHAIN!!"];
+  const toRotate = ["$FRANK MISSING? WE FOUND HIM HERE ON SOLANA CHAIN!!"];
   const period = 2000;
 
   useEffect(() => {
@@ -86,14 +86,13 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-           <button
-  onClick={() =>
-    (window.location.href = "https://x.com/frankonsol")
-  }
->
-  Follow us on X <ArrowRightCircle size={25} />
-</button>
-
+                  <button
+                    onClick={() =>
+                      (window.location.href = "https://x.com/kine_cto")
+                    }
+                  >
+                    Follow us on X <ArrowRightCircle size={25} />
+                  </button>
                 </div>
               )}
             </TrackVisibility>

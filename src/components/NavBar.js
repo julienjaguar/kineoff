@@ -27,7 +27,7 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="md" className={scrolled ? "scrolled" : "scrolled"}>
         <Container>
           <Navbar.Brand href="/">
             <img style={{ width: "6rem" }} src={logo} alt="Logo" />
@@ -39,41 +39,45 @@ export const NavBar = () => {
             <Nav className="ml-auto">
               <Nav.Item>
                 <Nav.Link
-                  href="https://x.com/frankonsol"
+                  href="https://twitter.com/"
                   className="navbar-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   TWITTER
+                  {/* <FontAwesomeIcon className="ok" icon={faTwitter} /> */}
                 </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Nav.Link
-                  href="https://t.me/franksnoopdoggydogg"
+                  href="https://t.me/"
                   className="navbar-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   TELEGRAM
+                  {/* <FontAwesomeIcon className="ok" icon={faTelegram} /> */}
                 </Nav.Link>
               </Nav.Item>
 
-              <Nav.Item disabled>
+              <Nav.Item>
                 <Nav.Link
                   href="https://www.dextools.io/app/en/pairs"
                   className="navbar-link"
-                  style={{ pointerEvents: "none", color: "inherit", textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   CHART
                 </Nav.Link>
               </Nav.Item>
 
-              <Nav.Item disabled>
+              <Nav.Item>
                 <Nav.Link
                   href="https://www.dextools.io/app/en/pairs"
                   className="navbar-link"
-                  style={{ pointerEvents: "none", color: "inherit", textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   BUY
                 </Nav.Link>

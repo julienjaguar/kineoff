@@ -2,7 +2,7 @@
   /* Version PC */
   .navbar-nav {
     display: flex;
-    gap: 20%;
+    gap: 30%;
     align-items: center;
   }
 
@@ -29,4 +29,18 @@
 
 .ok {
   margin-left: 1rem;
+}
+
+/* Version PC */
+@media (min-width: 768px) {
+  .image {
+    width: 40%; /* Définir la largeur à 40% pour la version PC */
+  }
+}
+
+/* Version mobile */
+@media (max-width: 767px) {
+  .image {
+    width: 100%; /* Définir la largeur à 100% pour la version mobile */
+  }
 }

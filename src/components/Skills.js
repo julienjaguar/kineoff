@@ -8,7 +8,6 @@ import fishImage3 from "../assets/img/10.png";
 import fishImage4 from "../assets/img/4.png";
 import fishImage5 from "../assets/img/5.png";
 import fishImage6 from "../assets/img/6.png";
-import mamak from "../assets/img/mamak.png";
 
 export const Skills = () => {
   const responsive = {
@@ -58,9 +57,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2 style={{ fontSize: "2rem" }}>
-                Snoop Doggy Dogg
-                </h2>
+              <h2 style={{ fontSize: "2rem" }}>FRANK CTO TEAM</h2>
               <p>
                 Snoop Dogg has been a good supporter of the crypto space during
                 the last bullrun, what's better to grab his attention than a
@@ -68,14 +65,23 @@ export const Skills = () => {
                 much noise barking everywhere to get Snoop to interact with him
                 on X, one snoop tweet and we all make it!!
               </p>
-              
-              <div style={{ marginTop: "4rem", width: "100%", textAlign: "center" }}>
-                
-        <img style={{ textAlign: "center", boxShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }} src={mamak} alt="" />
-<h6 style={{marginTop : "2rem"}}>
-                  Snoop got $FRANK returned to him, all good we can celebrate 🎉
-                  </h6>
-      </div>
+              <Carousel
+                style={{ backgroundColor: "black" }}
+                responsive={responsive}
+                infinite={true}
+                className="owl-carousel owl-theme skill-slider"
+              >
+                {fishFriends.map((fishFriend, index) => (
+                  <div key={index} className="item">
+                    <img
+                      style={{ width: "5rem", height: "5rem" }}
+                      src={fishFriend.img}
+                      alt={`${fishFriend.name} Controller`}
+                    />
+                    <h5 style={{ marginTop: "5rem" }}>{fishFriend.name}</h5>
+                  </div>
+                ))}
+              </Carousel>
             </div>
           </div>
         </div>

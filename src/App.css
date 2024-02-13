@@ -45,6 +45,8 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
 }
 
 p,
@@ -103,7 +105,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #000000;
 }
 nav.navbar a.navbar-brand {
   width: 9%;
@@ -570,7 +572,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url("./assets/img/footer-bg.png");
+  /* background-image: url("./assets/img/footer-bg.png"); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -644,4 +646,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.bg {
+  background-image: url("./assets/img/banner-bg.png");
+  background-size: cover; /* Pour que l'image couvre tout le conteneur */
+  background-repeat: no-repeat; /* Pour que l'image ne se répète pas */
 }
