@@ -1,0 +1,119 @@
+.btnSend button {
+  border-radius: 26px;
+  background-color: inherit;
+  border: 3px solid #dad7d7;
+  box-shadow: rgba(78, 78, 78, 0.25) 0px 54px 55px,
+    rgba(78, 78, 78, 0.25) 0px -12px 30px, rgba(78, 78, 78, 0.25) 0px 4px 6px,
+    rgba(78, 78, 78, 0.25) 0px 12px 13px, rgba(78, 78, 78, 0.25) 0px -3px 5px;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 33px;
+  font-weight: 700;
+  /* color: rgb(165, 163, 159); */
+}
+
+.btnBuy {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  font-size: 1rem;
+  color: white;
+  margin-top: 3rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+/************ Projects Css ************/
+.contact {
+  padding: 60px 0 29px 0;
+  box-shadow: 0 0 10px #0000001a;
+}
+.contact img {
+  width: 92%;
+  animation: updown 3s linear infinite;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 80%;
+  text-align: justify;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(59, 55, 55, 0.5);
+  border-radius: 20px;
+  color: #000000;
+  margin: 0 auto 8px auto;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.contact form input:focus::placeholder,
+.contact form textarea:focus::placeholder {
+  color: #121212;
+  opacity: 0.8;
+}
+.contact form button {
+  font-weight: 700;
+  color: #4e617d;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  border-radius: 26px;
+  background-color: inherit;
+  border: 3px solid #dad7d7;
+
+  color: gray;
+}
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
+.contact form button:hover {
+  color: gray;
+}
+.contact form button::before {
+  content: "";
+  color: gray;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.contact form button:hover::before {
+  width: 100%;
+}
+
+p.danger {
+  margin-top: 2rem;
+  color: #ffff;
+}
